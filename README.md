@@ -1,4 +1,5 @@
 #**Smart Summarizer**
+
 An AI-powered web application that helps users instantly summarize long form text using Large Language Models.
 
 #**Features**
