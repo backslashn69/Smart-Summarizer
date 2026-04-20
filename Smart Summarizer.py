@@ -1,7 +1,7 @@
 import streamlit as st
 from groq import Groq
 
-client = Groq(api_key="YOUR_GROQ_API_KEY")
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 st.title("Smartly shortened Summarizer")
 st.write("Enter text to summarize")
